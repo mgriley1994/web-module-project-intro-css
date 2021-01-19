@@ -1,0 +1,187 @@
+HTML for module 3 project
+
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8 "lang="eng">
+    <link rel="stylesheet" href="module3project.css">
+    </head>
+
+    <body>
+      <section class="navbar">
+        <nav>
+          <p class="nav-item1">Plan your Visit</p>
+          <p class="nav-item2">Learn about the Park</p>
+          <p class="nav-item3">Get Involved</p>
+        </nav>
+      </section>
+
+    <section class="first-section">
+      <img class="mountains" src="https://github.com/LambdaSchool/web-module-project-intro-css/blob/main/assets/header_img.jpg?raw=true"/>
+      <p class="park-guide" style="font-size: 3em;">Yosemite Park Guide</p>
+      <p>Come explore California’s beautiful wilderness.
+      Always open. Reservations are not available or required to enter the park.</p>
+    </section>
+
+    <section class="main">
+      <p class="main-1">Not just a great valley, but a shrine to human foresight,
+        the strength of granite, the
+        power of glaciers, the persistence of life, and the tranquility of the High Sierra.</p>
+      <p class="main-2">First protected in 1864, Yosemite National Park is best known for its waterfalls,
+         but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.
+        </p>
+    </section>
+    <div class="icon">
+          <img src="https://image.flaticon.com/icons/svg/2979/2979348.svg" class="icon-1"/>
+          Fire is a natural and essential part of Yosemite.<br>We manage fire carefully<br>
+          and study how it interacts with the park’s ecosystems.
+          <br>
+          This blog provides updates about fires in Yosemite.
+          <br>
+          Check for <span style="font-weight:bold;">current fire restrictions</span>.
+          <img src="https://image.flaticon.com/icons/svg/820/820374.svg" class="icon-2"/>
+          We strongly recommend that you make<br>
+           reservations for lodging, camping, and backpacking.<br>
+           You can pay the <span style="font-weight:bold;">park entrance fee</span> upon arrival<br>(there's no need to pay it in advance).
+    </div>
+            <img src="https://github.com/LambdaSchool/web-module-project-intro-css/blob/main/assets/footer_img.jpg?raw=true"
+            class="skyline"/>
+    <footer class="footer">
+      <nav>
+        <p class="foot-item1">Plan your Visit</p>
+        <p class="foot-item2">Learn about the Park</p>
+        <p class="foot-item3">Get Involved</p>
+      </nav>
+    </footer>
+    </body>
+
+</html>
+
+
+
+_______________________________________________________________________________________________________________________________
+
+
+
+
+CSS for module 3 project 
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+.navbar {
+  text-align: center;
+  margin-top: 3em;
+}
+.nav-item1, .nav-item2, .nav-item3 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  display: inline;
+  color: white;
+  padding: 15px;
+  margin-right: 4em;
+  border-radius: 15px;
+}
+.nav-item1 {
+  background-color: #FF764E;
+}
+.nav-item2 {
+  background-color: #5ED3EB;
+}
+.nav-item3 {
+  background-color: #FFCD69;
+}
+.mountains {
+  width:10em;
+  height:10em;
+  border-radius: 50%;
+  float: left;
+}
+.first-section {
+  font-family: 'Chelsea Market', cursive;
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-left:40px;
+  margin-right: 40px;
+}
+.main {
+  background-color: #DDB9A3;
+  text-align: center;
+  padding: 30px;
+  margin: 20px;
+  color: white;
+}
+.main-1 {
+  margin-bottom: 10px;
+}
+.icon {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.icon-1, .icon-2 {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.icon-2 {
+  margin-top: 40px;
+}
+.footer {
+  text-align: center;
+  background-color: #F9E7DC;
+  margin-top: 30px;
+  padding: 75px;
+}
+.foot-item1, .foot-item2, .foot-item3 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  display: inline;
+  color: white;
+  padding: 15px;
+  margin-right: 4em;
+  border-radius: 15px;
+}
+.foot-item1 {
+  background-color: #FF764E;
+}
+.foot-item2 {
+  background-color: #5ED3EB;
+}
+.foot-item3 {
+  background-color: #FFCD69;
+}
+.skyline {
+  height: 300px;
+  width: 100%;
+  margin-bottom: -40px;
+}
+
+
